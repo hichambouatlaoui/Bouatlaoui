@@ -74,7 +74,7 @@
     var divPiCos = document.getElementById("picos")
     for (var i = 0; i < picos.length; i++) {
       divPiCos.innerHTML += `
-    <div  class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div  class="col-lg-4 col-md-6 portfolio-item filter-`+ picos[i]['filt'] + `">
             <div class="portfolio-wrap">
               <img src="`+ picos[i]['pic'] + `" class="img-fluid"">
               <div class="portfolio-info">
